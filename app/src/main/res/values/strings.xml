@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Grub</string>
+    <string name="forgotpassword"><a href="www.google.com">Forgot your password?</a></string>
+    <string name="facebook_app_id">743822239110861</string>
+
+</resources>

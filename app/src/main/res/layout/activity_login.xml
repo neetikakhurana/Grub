@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lecture.nitika.grub.LoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/vegetables"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:id="@+id/caption1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="42sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace" />
+
+        <TextView
+            android:text="Grub! A college guide to the easiest recipes and healthy options with just a grab away."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:id="@+id/caption2"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="19sp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/caption1"
+            android:fontFamily="serif-monospace" />
+
+        <Button
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:inputType="textPersonName"
+            android:text="Login"
+            android:ems="10"
+            android:background="@drawable/rounded_loginbutton"
+            android:layout_marginTop="30dp"
+            android:id="@+id/loginButton"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_below="@+id/pwd"
+            android:layout_alignEnd="@+id/pwd"
+            android:layout_alignStart="@+id/pwd" />
+
+        <TextView
+            android:id="@+id/txtLostpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:gravity="center"
+            android:padding="20px"
+            android:text="@string/forgotpassword"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:linksClickable="true"
+            android:textColorLink="@android:color/darker_gray"
+            android:layout_below="@+id/loginButton"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:inputType="textPassword"
+            android:hint="******"
+            android:clickable="true"
+            android:ems="10"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginTop="30dp"
+            android:id="@+id/pwd"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_below="@+id/email"
+            android:layout_alignStart="@+id/email"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:inputType="textPersonName"
+            android:hint="Email/Username"
+            android:ems="10"
+            android:background="@drawable/rounded_edittext"
+            android:id="@+id/email"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@id/loginButton"
+            android:layout_height="wrap_content">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/btn_login"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                facebook:com_facebook_confirm_logout="true"
+                facebook:com_facebook_tooltip_mode="never_display"/>
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btn_googleLogin"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

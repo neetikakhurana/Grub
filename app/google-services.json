@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "664263866175",
+    "project_id": "grub-e37fc"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664263866175:android:d2a11c5a88d1f3ef",
+        "android_client_info": {
+          "package_name": "com.lecture.nitika.grub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664263866175-c6g0ecphbumd3canfr83mb931senrpct.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "664263866175-08c1hh2ek5rtfgu1ft5ltlg5kumgrsmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lecture.nitika.grub",
+            "certificate_hash": "807c960f5f695c872c81801daba504f2d9e13521"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAyMXpMdVGnhWcYPe0r7-V8xFgT2JSgH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
