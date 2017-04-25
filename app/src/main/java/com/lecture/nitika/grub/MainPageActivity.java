@@ -31,7 +31,7 @@ public class MainPageActivity extends AppCompatActivity {
      */
     private void init() {
         RecipeClient rClient = RecipeClient.getInstance(mcontext);
-        rClient.SearchRecipe();
+        //rClient.SearchRecipe();
     }
 
     @Override

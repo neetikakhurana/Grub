@@ -2,5 +2,26 @@
     <string name="app_name">Grub</string>
     <string name="forgotpassword"><a href="www.google.com">Forgot your password?</a></string>
     <string name="facebook_app_id">743822239110861</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_recipe_search">recipeSearchActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">Home</string>
+    <string name="location">Location</string>
+    <string name="upload">Upload</string>
+    <string name="userPreferences">User Preferences</string>
+    <string name="logOut">LogOut</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Enter Ingredients</string>
+
+    <string name="Ingrediants">Ingrediant List</string>
+    <string name="Directions">Directions</string>
 
 </resources>

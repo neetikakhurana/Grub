@@ -19,4 +19,15 @@ public class Constants {
     //for Recipe Client
     public static final String xMashapeKey = "B5SM59YVJ6mshnccb5rU2vIfThLGp1iZTfyjsnZ8hHvEWLapyv";
 
+    public static final String recentlyViewed = "RECENTLY VIEWED";
+    public static final String featuredRecipe = "FEATURED RECIPE";
+    public static final String favouriteRecipe = "FAVORITE RECIPE";
+
+    //Search related settings
+    public static final int numberRecipeResults = 100;
+    public static final int ranking = 2; //Optional parameter: Whether to maximize used ingredients (1) or minimize missing ingredients (2) first.
+
+    //clicked Item
+    public static final String clicked_ListItem_Key = "rItem_Clicked";
+
 }

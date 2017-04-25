@@ -39,7 +39,7 @@ public class StartActivity extends AppCompatActivity {
             public void run() {
                 //if logged in directly show the main page
                 if(isloggedin){
-                    Intent intent = new Intent(mcontext,MainPageActivity.class);
+                    Intent intent = new Intent(mcontext,SearchActivity.class);
                     startActivity(intent);
                 }else{
                     Intent intent=new Intent(getApplicationContext(), LoginActivity.class);
